@@ -236,7 +236,7 @@ a:hover {
 /* inercio d'imatge en el background y tamany del div amb d-flex */
 #contact {
     overflow: hidden;
-    background: url('img/contactbg.png') no-repeat;
+    background: url('img/fondocontact.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 720px;
