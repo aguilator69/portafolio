@@ -111,7 +111,7 @@ a:hover {
     z-index: 3;
     cursor: pointer;
     background-color: #d8d8d8;
-    animation: cambiar-opacidad 2s;
+    animation: cambiar-opacidad 1.9s;
     animation-iteration-count: infinite;
 }
 
