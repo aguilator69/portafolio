@@ -62,16 +62,16 @@
         <div class=" col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-between  ">
             <div class="display-6 text-center text-md-start">
 
-                <h1 class="h2">David Aguilar</h1>
-                <h2>Moix</h2>
-                <h2>Web Developer</h2>
+                <h1>David Aguilar</h1>
+                <p>Moix</p>
+                <p>Web Developer</p>
 
             </div>
             <div class="h4 my-5 mx-0 text-center text-md-start">
-                <h2 class="font2">Desarrollo de sitios y</h2>
-                <h2 class="font2">aplicaciones web, </h2>
-                <h2 class="font2">así como aplicaciones</h2>
-                <h2 class="font2">móviles multiplataforma.</h2>
+                <p class="font2">Desarrollo de sitios y</p>
+                <p class="font2">aplicaciones web, </p>
+                <p class="font2">así como aplicaciones</p>
+                <p class="font2">móviles multiplataforma.</p>
             </div>
             <div class="col-12 text-center text-md-start">
                 <a href="#hrefAbout">
@@ -305,21 +305,28 @@
             <!-- formulari per enviar missatge -->
             <form action="submit.php" class="text-light col-12">
                 <div class="mx-auto mb-3 d-flex justify-content-between row col-8">
+                    <div class="col-12 col-md-5 col-lg-6 " data-aos="fade-right" data-aos-duration="2000" >
                     <label for="nombre">Nombre</label>
-                    <input type="text" data-aos="fade-right" data-aos-duration="2000" name="nombre" id="nombre"
-                        class=" col-12 col-md-5 col-lg-4 border border-2 rounded my-3" placeholder="nom i cognom">
-                    <label for="correo">Correo</label>
+                    <input type="text" name="nombre" id="nombre"
+                        class=" col-12  col-lg-11 border border-2 rounded my-3" placeholder="nom i cognom">
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-6 " data-aos="fade-left" data-aos-duration="2000">
+                        <label for="correo">Correo</label>
                     <input type="text" id="correo" name="correo"
-                        class="col-12 col-md-5 col-lg-4 border border-2 rounded my-3" placeholder="email"
-                        data-aos="fade-left" data-aos-duration="2000">
+                        class="col-12  col-lg-11 border border-2 rounded my-3" placeholder="email"
+                        >
+                    </div>
                 </div>
-                <label for="cuerpo">cuerpo del mensaje</label>
+                <div data-aos="fade-up"
+                data-aos-duration="2000" class="d-flex flex-column">
+                    <label for="cuerpo" class="m-auto col-8">cuerpo del mensaje</label>
                 <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"
-                    class="offset-2 col-8 border border-2 p-2 rounded" placeholder="text" data-aos="fade-up"
-                    data-aos-duration="2000"></textarea>
+                    class="offset-2 col-8 border border-2 p-2 rounded" placeholder="text" ></textarea>
+                </div>
+                
                 <div class="col-12 text-center pt-1">
-                    <button type="button" class="btn btn-primary rounded rounded-5 mt-3 col-3 col-md-2 "
-                        data-aos="fade-up" data-aos-duration="2000">Enviar</button>
+                    <input type="submit" class="btn btn-primary rounded rounded-5 mt-3 col-3 col-md-2 "
+                        data-aos="fade-up" data-aos-duration="2000"></input>
                 </div>
             </form>
         </div>
@@ -333,8 +340,8 @@
                 <p class="my-auto">© David Aguilar</p>
             </div>
             <div class="d-flex my-auto justify-content-evenly">
-                <a href="https://www.instagram.com/" title="enllace que te envia a instagram"></a><img
-                    src="img/instagram.svg" alt="instagram" class="mx-2">
+                <a href="https://www.instagram.com/" title="enllace que te envia a instagram"><img
+                    src="img/instagram.svg" alt="instagram" class="mx-2"></a>
                 <a href="https://www.linkedin.com/" title="enllace que te envia a linkedin"><img src="img/linkedin.svg"
                         alt="linkedin" class="mx-2"></a>
                 <a href="https://github.com/aguilator69" title="enllace que te envia a github"><img
